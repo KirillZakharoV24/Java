@@ -7,7 +7,7 @@ public class DZ2a {
         int ticketPrice = 15685;
 
         // Количество начисленных миль
-        int milesEarned =  (int) (ticketPrice / 20);
+        int milesEarned;
 
         if (ticketPrice >= 20) {
             milesEarned = ticketPrice / 20;
