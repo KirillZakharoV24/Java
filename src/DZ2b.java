@@ -10,11 +10,13 @@ public class DZ2b {
         int replenishmentAmount = 900;
 
         //Бонусные рубли
-        int bonus = 0;
+        int bonus;
+        
         if (replenishmentAmount > 1000) {
             bonus = (replenishmentAmount / 100);
-        }
-        //Итоговая сумма
+        } else (bonus = 0)
+        
+            //Итоговая сумма
         int totalAmount = currentBalance + replenishmentAmount + bonus;
 
         System.out.println("Итоговая сумма: " + totalAmount + " рублей");
