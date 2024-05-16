@@ -11,8 +11,10 @@ public class DZ2a {
 
         if (ticketPrice >= 20) {
             milesEarned = ticketPrice / 20;
-        } else { milesEarned =0;
-            
+        } else {
+
+            milesEarned = 0;
+
         }
 
         // Результат
